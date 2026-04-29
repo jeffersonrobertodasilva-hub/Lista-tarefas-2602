@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://taskflow-todo.vercel.app/sitemap.xml
