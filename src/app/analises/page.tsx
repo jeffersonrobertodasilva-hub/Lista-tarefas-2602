@@ -18,10 +18,12 @@ export default function Analises() {
         setTasks(data.map((t: any) => ({
           id: t.id,
           title: t.title,
+          description: t.description,
           completed: t.completed,
           category: t.category,
           priority: t.priority,
           dueDate: t.due_date,
+          createdAt: t.created_at,
         })));
       }
       setLoading(false);
